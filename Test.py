@@ -98,6 +98,6 @@ class  AttedenceProject:
         for i in self.presentList:
             print(i,end = " ")
     
-    def attendenceSheet(self):
+    def generateAttendenceSheet(self):
         with open(f"{self.section} {getDate()}", "a") as f: 
             f.write("Hello World!!!") 
